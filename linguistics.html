@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Hans Slechta's Linguistics Portfolio</title>
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js" integrity="sha512-BAMfk70VjqBkBIyo9UTRLl3TBJ3M0c6uyy2VMUrq370bWs7kchLNN9j1WiJQus9JAJVqcriIUX859JOm12LWtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<header>
+		<h1>Hans Slechta's Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="linguistics.html">Linguistics</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="programming.html">Programming</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="app">
+		<div class="paragraphs">
+			<h3>Language Learning</h3>
+			<p>As a linguistics major, learning lots of languages comes with the territory. Besides the classes I took in college and graduate school, I have also studied many languages with the help of the <a href="https://www.duolingo.com" target="_blank">Duolingo</a> language learning app.</p>
+		</div>
+    		<table>
+            		<caption>Languages Studied</caption>
+            		<thead>
+	        		<tr>
+		    			<th>Languages</th>
+		    			<th>Method</th>
+		    			<th>Reading Proficiency</th>
+		    			<th>Speaking Proficiency</th>
+	    			</tr>
+	    		</thead>
+	    		<tbody>
+	    			<tr id="row0" @mouseover="showEnglish(0)" @mouseout="showOther(0)">
+		    			<td>English</td>
+		    			<td>Native Speaker</td>
+		    			<td>10</td>
+		    			<td>10</td>
+	    			</tr>
+	    			<tr id="row1" class="even" @mouseover="showEnglish(1)" @mouseout="showOther(1)">
+		    			<td>Deutsch</td>
+		    			<td>Middle/High School, College, and Duolingo</td>
+		    			<td>7</td>
+		    			<td>3</td>
+	        		</tr>
+	        		<tr id="row2" @mouseover="showEnglish(2)" @mouseout="showOther(2)">
+		    			<td>Français</td>
+		    			<td>Duolingo</td>
+		    			<td>7</td>
+		    			<td>3</td>
+	        		</tr>
+	        		<tr id="row3" class="even" @mouseover="showEnglish(3)" @mouseout="showOther(3)">
+		    			<td>Русский</td>
+		    			<td>College and Duolingo</td>
+		    			<td>5</td>
+		    			<td>2</td>
+	        		</tr>
+	       			<tr id="row4" @mouseover="showEnglish(4)" @mouseout="showOther(4)">
+		    			<td>Español</td>
+		    			<td>Duolingo</td>
+		    			<td>5</td>
+		    			<td>2</td>
+	        		</tr>
+	        		<tr id="row5" class="even" @mouseover="showEnglish(5)" @mouseout="showOther(5)">
+		    			<td>Polski</td>
+		    			<td>College</td>
+		    			<td>3</td>
+		    			<td>2</td>
+	        		</tr>
+	        		<tr id="row6" @mouseover="showEnglish(6)" @mouseout="showOther(6)">
+		    			<td>𐌲𐌿𐍄𐌰𐌽𐌴</td>
+		    			<td>Graduate School</td>
+		    			<td>3</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row7" class="even" @mouseover="showEnglish(7)" @mouseout="showOther(7)">
+		    			<td>словѣньскъ</td>
+		    			<td>Graduate School</td>
+		    			<td>3</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row8" @mouseover="showEnglish(8)" @mouseout="showOther(8)">
+		    			<td>संस्कृत</td>
+		    			<td>Graduate School</td>
+		    			<td>3</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row9" class="even" @mouseover="showEnglish(9)" @mouseout="showOther(9)">
+		    			<td>Latina</td>
+		    			<td>Graduate School and Duolingo</td>
+		    			<td>2</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row10" @mouseover="showEnglish(10)" @mouseout="showOther(10)">
+		    			<td>Nederlands</td>
+		    			<td>Duolingo</td>
+		    			<td>2</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row11" class="even" @mouseover="showEnglish(11)" @mouseout="showOther(11)">
+		    			<td>Ἑλληνική</td>
+		    			<td>Graduate School</td>
+		    			<td>1</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row12" @mouseover="showEnglish(12)" @mouseout="showOther(12)">
+		    			<td>հայերէն</td>
+		    			<td>Graduate School</td>
+		    			<td>1</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row13" class="even" @mouseover="showEnglish(13)" @mouseout="showOther(13)">
+		    			<td>עברית</td>
+		    			<td>College</td>
+		    			<td>1</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row14" @mouseover="showEnglish(14)" @mouseout="showOther(14)">
+		    			<td>Svenska</td>
+		    			<td>Duolingo</td>
+		    			<td>1</td>
+		    			<td>1</td>
+	        		</tr>
+	        		<tr id="row15" class="even" @mouseover="showEnglish(15)" @mouseout="showOther(15)">
+		    			<td>Čeština</td>
+		    			<td>Duolingo</td>
+		    			<td>1</td>
+		    			<td>1</td>
+	        		</tr>
+	    		</tbody>
+	    		<tfoot>
+	        		<tr>
+	    	    			<td colspan="4">Reading and Speaking Proficiency: 1 to 10 continuous scale (with explanations below)</td>
+	        		</tr>
+	    		</tfoot>
+        	</table>
+		<div id="key">
+	    		<h4>Reading Proficiency Key</h4>
+	    		<ul>
+	    			<li>1 = I can read a few words and recognize the alphabet</li>
+	    			<li>3/4 = I can read some sentences, but I need to use a dictionary for most words</li>
+	    			<li>6/7 = I can read most sentences, but I need a dictionary for some words</li>
+	    			<li>10 = I rarely need to look up a word's meaning</li>
+	    		</ul>
+	    		<h4>Speaking Proficiency Key</h4>
+	    		<ul>
+	    			<li>1 = I can pronounce words that I am seeing for the first time</li>
+	    			<li>3/4 = I can produce simple sentences and participate in simple conversations</li>
+	    			<li>6/7 = I can produce complex sentences and participate in most conversations</li>
+	    			<li>10 = I am fluent, and I can communicate any idea I want to communicate</li>
+	    		</ul>
+		</div>
+		<script src="js/linguisticsVue.js"></script>
+	</main>
+	<footer>
+		<p>&copy; 2023 Hans M. Slechta</p>
+	</footer>
+</body>
+</html>

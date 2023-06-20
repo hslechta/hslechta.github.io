@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Contact Hans Slechta</title>
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Hans Slechta's Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="linguistics.html">Linguistics</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="programming.html">Programming</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="paragraphs">
+			<h3>Contact Form</h3>
+			<p>If you would like to contact me, please fill out this form. After clicking the submit button, your email program should open with an email prepared with all the information from the form in it. Please just click send, and I will receive your message.</p>
+		</div>
+		<form name="email_form" method="post" action="mailto:hansmslechta@gmail.com">
+			<fieldset>
+				<legend>First Name</legend>
+				<label for="firstName">What is your first name?</label>
+				<input type="text" name="firstName" id="firstName" required autofocus>
+			</fieldset>
+			<fieldset>
+				<legend>Last Name</legend>
+				<label for="lastName">What is your last name?</label>
+				<input type="text" name="lastName" id="lastName" required>
+			</fieldset>
+			<fieldset>
+				<legend>Email</legend>
+				<label for="email">What is your email?</label>
+				<input type="email" name="email" id="email" required>
+			</fieldset>
+			<fieldset>
+				<legend>Message</legend>
+				<label for="message">What would you like to say to me?</label>
+				<textarea rows="5" cols="30" name="message" id="message" required></textarea>
+			</fieldset>
+			<fieldset>
+				<input type="submit" name="submitButton" value="Submit" id="submitButton">
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Hans M. Slechta</p>
+	</footer>
+</body>
+</html>

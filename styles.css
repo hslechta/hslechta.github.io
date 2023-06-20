@@ -1,0 +1,362 @@
+@media screen and (min-width: 970px) {
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #80ceff;
+}
+
+header {
+	font-family: "Times New Roman", serif;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	border: 3px solid #0000ff;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #00fcff;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 100px;
+	border: 1px solid #0000ff;
+	border-radius: 15px;
+	background-color: #0000ff;
+}
+
+nav ul li:hover {
+	border-color: #ffaadd;
+	background-color: #ffaadd;
+}
+
+nav a {
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #0000ff;
+}
+
+aside {
+	position: fixed;
+	float: left;
+	top: 200px;
+	width: 20%;
+	border: 1px solid #0000ff;
+	padding: 0 10px;
+	background-color: #00fcff;
+}
+
+main {
+	padding: 180px 0;
+	background-color: #80ceff;
+}
+
+#slideshow {
+	width: 100%;
+	text-align: center;
+}
+
+#slideshow img {
+	margin: 0;
+	padding: 1%;
+}
+
+#footnote {
+	padding-top: 30px;
+}
+
+#footnote p {
+	text-indent: 2em;
+}
+
+.music{
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.paragraphs {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.paragraphs p {
+	text-indent: 2em;
+}
+
+embed {
+	width: 50%;
+	margin: 0 25%;
+}
+
+table {
+	width: 60%;
+	margin: 50px auto;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 14pt;
+	padding-bottom: 20px;
+}
+
+th {
+	border-bottom: 1px solid #0000ff;
+}
+
+td:first-child {
+	width: 20%;
+}
+
+td {
+	border-bottom: 1px solid #0000ff;
+}
+
+tr {
+	height: 1.75em;
+}
+
+tbody tr:hover {
+	background-color: #ffaadd;
+}
+
+#key {
+	width: 60%;
+	margin: 30px auto;
+	padding: 10px;
+	border: 2px dashed #0000ff;
+}
+
+form {
+	width: 40%;
+	margin: 30px auto;
+}
+
+form textarea {
+	vertical-align: middle;
+}
+
+fieldset {
+	margin: 20px;
+	border: 2px dashed #0000ff;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	padding: 0 5px;
+}
+
+#submitButton {
+	width: 20%;
+	margin: 0 40%;
+}
+
+footer {
+	font-family: "Times New Roman", serif;
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	border: 3px solid #0000ff;
+	padding: 5px;
+	text-align: center;
+	background-color: #00fcff;
+}
+}
+
+
+@media screen and (max-width: 970px) {
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #80ceff;
+}
+
+header {
+	font-family: "Times New Roman", serif;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	border: 3px solid #0000ff;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #00fcff;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 1em auto;
+	width: 30%;
+	border-radius: 5px;
+	background-color: #0000ff;
+}
+
+nav ul li:hover {
+	border-color: #ffaadd;
+	background-color: #ffaadd;
+}
+
+nav a {
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #0000ff;
+}
+
+aside {
+	top: 200px;
+	width: 60%;
+	margin: 50px auto 0 auto;
+	border: 1px solid #0000ff;
+	padding: 0 10px;
+	background-color: #00fcff;
+}
+
+main {
+	padding: 20px 0;
+	background-color: #80ceff;
+}
+
+#slideshow {
+	width: 100%;
+	text-align: center;
+}
+
+#slideshow img {
+	margin: 0;
+	padding: 10px 10%;
+}
+
+#footnote {
+	padding-top: 20px;
+}
+
+#footnote p {
+	text-indent: 2em;
+}
+
+.music{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.paragraphs {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.paragraphs p {
+	text-indent: 2em;
+}
+
+embed {
+	width: 100%;
+	margin: 0;
+}
+
+table {
+	width: 60%;
+	margin: 50px auto;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 14pt;
+	padding-bottom: 20px;
+}
+
+th {
+	border-bottom: 1px solid #0000ff;
+}
+
+td:first-child {
+	width: 20%;
+}
+
+td {
+	border-bottom: 1px solid #0000ff;
+}
+
+tr {
+	height: 1.75em;
+}
+
+tbody tr:hover {
+	background-color: #ffaadd;
+}
+
+#key {
+	width: 60%;
+	margin: 30px auto;
+	padding: 10px;
+	border: 2px dashed #0000ff;
+}
+
+form {
+	width: 60%;
+	margin: 30px auto;
+}
+
+form textarea {
+	vertical-align: middle;
+}
+
+fieldset {
+	margin: 20px;
+	border: 2px dashed #0000ff;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	padding: 0 5px;
+}
+
+#submitButton {
+	width: 20%;
+	margin: 0 40%;
+}
+
+footer {
+	font-family: "Times New Roman", serif;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	border: 3px solid #0000ff;
+	padding: 5px;
+	text-align: center;
+	background-color: #00fcff;
+}
+}

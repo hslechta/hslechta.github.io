@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Hans Slechta's Music Portfolio</title>
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Hans Slechta's Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="linguistics.html">Linguistics</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="programming.html">Programming</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<aside>
+		<h3>Instruments I Play</h3>
+    		<ul>
+	    		<li><a href="#voice">Voice (Bass/Baritone)</a></li>
+	    		<li><a href="#cello">Cello</a></li>
+	    		<li><a href="#percussion">Percussion</a>
+	    			<ul>
+		    			<li>Marimba</li>
+		    			<li>Xylophone</li>
+		    			<li>Vibraphone</li>
+		    			<li>Glockenspiel</li>
+		    			<li>Tower Bells (Chimes and Carillons)</li>
+		    			<li>Handbells</li>
+	    			</ul>
+	    		</li>
+        	</ul>
+		<h3>Instruments I'm Learning</h3>
+        	<ul>
+	    		<li><a href="#trombone">Trombone</a></li>
+	    		<li><a href="#keyboards">Keyboards</a>
+	    			<ul>
+		    			<li>Piano</li>
+		    			<li>Organ</li>
+	    			</ul>
+	    		</li>
+    		</ul>
+    	</aside>
+	<main>
+		<div class="music">
+			<h2>Instrument Details</h2>
+			<article id="voice">
+	    			<h3>Voice</h3>
+	    			<p>I sang Bass II with the Cornell University Glee Club and the Cornell University Chamber Singers.</p>
+			</article>
+			<article id="cello">
+	    			<h3>Cello</h3>
+	    			<p>I have played cello with the Reading Pops Orchestra.</p>
+			</article>
+			<article id="percussion">
+	    			<h3>Percussion</h3>
+	    			<p>I played an assortment of mallet percussion in high school and college wind ensembles and percussion ensembles.</p>
+	    			<p>I also played the Cornell Chimes in college. The instrument is a 21&ndash;bell chime in the top of McGraw Tower, played three times a day by student Chimesmasters.
+			</article>
+			<article id="trombone">
+	    			<h3>Trombone</h3>
+	    			<p>I learned to play trombone as part of my high school jazz band.</p>
+			</article>
+			<article id="keyboards">
+	    			<h3>Keyboards</h3>
+	    			<p>After learning mallet percussion, I began teaching myself to play piano.</p>
+	    			<p>I also began learning organ in a college class during my senior year.</p>
+			</article>
+		</div>
+		<div id="footnote" class="music">
+			<h3>About the Music</h3>
+			<p>The music you're currently hearing is a recording of me playing the hymn tune Slane, better known as <cite>Be Thou My Vision</cite>, on the Cornell Chimes. If you cannot hear it, you may download it <a href="assets/audio/bethoumyvisionchimes.mp3">as an mp3</a> or <a href="assets/audio/bethoumyvisionchimes.ogg">as an ogg</a>.</p>
+			<audio id="audio">
+				<source src="assets/audio/bethoumyvisionchimes.mp3">
+				<source src="assets/audio/bethoumyvisionchimes.ogg">
+			</audio>
+		</div>
+		<script src="js/musicPlayer.js"></script>
+	</main>
+	<footer>
+		<p>&copy; 2023 Hans M. Slechta</p>
+	</footer>
+</body>
+</html>
